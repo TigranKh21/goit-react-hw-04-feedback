@@ -1,6 +1,7 @@
 import css from '../Feedback.module.css';
 
-export const FeedbackOptions = ({ onLeaveFeedback, options }) => {
+export const FeedbackOptions = ({ onLeaveFeedback }) => {
+  const options = ['good', 'neutral', 'bad'];
   return (
     <>
       <div className={css.buttons}>
